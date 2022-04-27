@@ -13,8 +13,6 @@ public class Program_1 {
 
     // takes user-input values of a and b
     public static void takeInput(Scanner scn) {
-        // Scanner scn = new Scanner(System.in);
-
         System.out.println("\t\t ~ Simple Calculator ~");
         try {
             System.out.println("Enter the value of a : ");
@@ -26,8 +24,6 @@ public class Program_1 {
             System.out.println("Invalid input. Please enter a number.");
             takeInput(scn);
         }
-
-        //scn.close();
     }
 
     public static void userChoice(Scanner scn) {
