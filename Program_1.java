@@ -30,25 +30,6 @@ public class Program_1 {
         //scn.close();
     }
 
-    /*
-    // takes user input for type of operation
-    public static void userChoice() {
-        System.out.println("Enter the type of operation to be performed.");
-        Scanner scn = new Scanner(System.in);
-
-        try {
-            System.out.println("TYPE:  \"A\" for Addition" + "\n\t\"S\" for Subtraction" + "\n\t\"M\" for Multiplication" + "\n\t\"D\" for Division");
-            System.out.println();
-            typeOfOperation = scn.nextLine();
-            System.out.println(typeOfOperation.toString());    
-        } catch (NoSuchElementException e) {
-            // exception
-            System.out.println("invalid");
-        }
-        scn.close();
-    }
-    */
-
     public static void userChoice(Scanner scn) {
         // Scanner sc = new Scanner(System.in);
         System.out.println("Enter the type of operation to be performed.");
@@ -91,8 +72,7 @@ public class Program_1 {
                     break;
             }
         }
-        
-
+       
         scn.close();
     }
 }
